@@ -1,0 +1,508 @@
+# depslib dependency file v1.0
+1556879015 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\main.cpp
+	<iostream>
+	"../App/App.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_minimal.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\begin_code.h
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\close_code.h
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_config_windows.h
+	"SDL_platform.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_config_psp.h
+	"SDL_platform.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508754466 c:\program files (x86)\codeblocks\mingw\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1555525800 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\graphics\color.cpp
+	"Color.h"
+	<SDL.h>
+
+1555526636 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\graphics\color.h
+	<stdint.h>
+
+1555701680 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\src\screenbuffer.cpp
+	"ScreenBuffer.h"
+	<SDL.h>
+	<cassert>
+
+1555617998 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\include\screenbuffer.h
+	<stdint.h>
+	"../Graphics/Color.h"
+
+1551301614 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\section-6-full-source\utils\utils.cpp
+	"Utils.h"
+	<cmath>
+
+1556829767 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\section-6-full-source\utils\utils.h
+
+1551301614 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\section-6-full-source\utils\vec2d.cpp
+	"Vec2D.h"
+	"Utils.h"
+	<cassert>
+	<cmath>
+
+1546962988 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\section-6-full-source\utils\vec2d.h
+	<iostream>
+
+1556832198 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\include\screen.h
+	<vector>
+	<stdint.h>
+	"ScreenBuffer.h"
+	"../Graphics/Color.h"
+
+1556833573 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\src\screen.cpp
+	"Screen.h"
+	"../../Section-6-Full-Source/Utils/Vec2D.h"
+	"../../Section-6-Full-Source/Utils/Utils.h"
+	"../Graphics/Line2D.h"
+	"../Graphics/Star2D.h"
+	"../Graphics/Triangle.h"
+	"../Graphics/AARectangle.h"
+	"../Graphics/Circle.h"
+	"SDL.h"
+	<cassert>
+	<cmath>
+	<algorithm>
+
+1555708567 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\shapes\line2d.cpp
+	"Line2D.h"
+	<cmath>
+	"../../Section-6-Full-Source/Utils/Utils.h"
+
+1555706743 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\shapes\line2d.h
+	"../../Section-6-Full-Source/Utils/Vec2D.h"
+
+1555708567 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\graphics\line2d.cpp
+	"Line2D.h"
+	<cmath>
+	"../../Section-6-Full-Source/Utils/Utils.h"
+
+1555706743 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\graphics\line2d.h
+	"../../Section-6-Full-Source/Utils/Vec2D.h"
+
+1555963454 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\graphics\star2d.cpp
+	"Star2D.h"
+
+1555962583 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\graphics\star2d.h
+	"Line2D.h"
+	"../../Section-6-Full-Source/Utils/Vec2D.h"
+
+1556220776 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\graphics\shape.cpp
+	"Shape.h"
+
+1556220641 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\graphics\shape.h
+	"../../Section-6-Full-Source/Utils/Vec2D.h"
+	<vector>
+
+1556225610 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\graphics\aarectangle.cpp
+	"AARectangle.h"
+	"../../Section-6-Full-Source/Utils/Utils.h"
+	<cmath>
+
+1556224465 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\graphics\aarectangle.h
+	"Shape.h"
+
+1556226692 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\graphics\circle.cpp
+	"Circle.h"
+	"../../Section-6-Full-Source/Utils/Utils.h"
+
+1556226806 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\graphics\circle.h
+	"Shape.h"
+
+1556827228 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\graphics\triangle.cpp
+	"Triangle.h"
+	<cmath>
+	"../../Section-6-Full-Source/Utils/Utils.h"
+
+1556827197 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\graphics\triangle.h
+	"Shape.h"
+
+1556910770 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\app\app.cpp
+	<iostream>
+	"App.h"
+	"SDL.h"
+	"../Scenes/ArcadeScene.h"
+	<cassert>
+
+1556909822 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\app\app.h
+	"../include/Screen.h"
+	"../Scenes/Scene.h"
+	<stdint.h>
+	<memory>
+	<vector>
+
+1556910855 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\scenes\arcadescene.cpp
+	<math.h>
+	"ArcadeScene.h"
+	"../../Section-6-Full-Source/Utils/Utils.h"
+	"../include/Screen.h"
+	"../Graphics/Triangle.h"
+	"../Graphics/AARectangle.h"
+	"../Graphics/Circle.h"
+	"../Graphics/Star2D.h"
+	"../Graphics/Line2D.h"
+	"../Graphics/Color.h"
+
+1556908851 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\scenes\arcadescene.h
+	"Scene.h"
+	"../Graphics/Line2D.h"
+	<memory>
+
+1556903582 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\scenes\scene.h
+	<string>
+	<stdint.h>
+

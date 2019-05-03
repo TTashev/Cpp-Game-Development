@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ArcadeApp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ArcadeApp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="ArcadeApp/Shapes" />
+					<Add directory="ArcadeApp/Graphics" />
+					<Add directory="ArcadeApp/App" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ArcadeApp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="ArcadeApp/Shapes" />
+					<Add directory="ArcadeApp/Graphics" />
+					<Add directory="ArcadeApp/App" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/include/SDL2" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/glew-2.0.0/lib/Release/Win32" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2" />
+			<Add option="-lmingw32 -lglew32s" />
+			<Add option="-lmingw32 -lopengl32" />
+			<Add library="glew32s" />
+			<Add library="glu32" />
+			<Add library="opengl32" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/lib" />
+		</Linker>
+		<ExtraCommands>
+			<Add after="xcopy ${workspace_loc:/${ProjName}}\src\Assets ${workspace_loc:/${ProjName}}\\${ConfigName}\Assets /i /d" />
+		</ExtraCommands>
+		<Unit filename="../Section-6-Full-Source/Utils/Utils.cpp" />
+		<Unit filename="../Section-6-Full-Source/Utils/Utils.h" />
+		<Unit filename="../Section-6-Full-Source/Utils/Vec2D.cpp" />
+		<Unit filename="../Section-6-Full-Source/Utils/Vec2D.h" />
+		<Unit filename="App/App.cpp" />
+		<Unit filename="App/App.h" />
+		<Unit filename="Graphics/AARectangle.cpp" />
+		<Unit filename="Graphics/AARectangle.h" />
+		<Unit filename="Graphics/Circle.cpp" />
+		<Unit filename="Graphics/Circle.h" />
+		<Unit filename="Graphics/Color.cpp" />
+		<Unit filename="Graphics/Color.h" />
+		<Unit filename="Graphics/Line2D.cpp" />
+		<Unit filename="Graphics/Line2D.h" />
+		<Unit filename="Graphics/Shape.cpp" />
+		<Unit filename="Graphics/Shape.h" />
+		<Unit filename="Graphics/Star2D.cpp" />
+		<Unit filename="Graphics/Star2D.h" />
+		<Unit filename="Graphics/Triangle.cpp" />
+		<Unit filename="Graphics/Triangle.h" />
+		<Unit filename="Scenes/ArcadeScene.cpp" />
+		<Unit filename="Scenes/ArcadeScene.h" />
+		<Unit filename="Scenes/Scene.h" />
+		<Unit filename="include/Screen.h" />
+		<Unit filename="include/ScreenBuffer.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Screen.cpp" />
+		<Unit filename="src/ScreenBuffer.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
