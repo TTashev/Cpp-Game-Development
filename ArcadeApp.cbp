@@ -17,6 +17,10 @@
 					<Add directory="ArcadeApp/Shapes" />
 					<Add directory="ArcadeApp/Graphics" />
 					<Add directory="ArcadeApp/App" />
+					<Add directory="ArcadeApp/Input" />
+					<Add directory="ArcadeApp/Scenes" />
+					<Add directory="ArcadeApp/Games" />
+					<Add directory="Section-6-Full-Source/Utils" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -30,6 +34,10 @@
 					<Add directory="ArcadeApp/Shapes" />
 					<Add directory="ArcadeApp/Graphics" />
 					<Add directory="ArcadeApp/App" />
+					<Add directory="ArcadeApp/Input" />
+					<Add directory="ArcadeApp/Scenes" />
+					<Add directory="ArcadeApp/Games" />
+					<Add directory="Section-6-Full-Source/Utils" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -54,12 +62,17 @@
 		<ExtraCommands>
 			<Add after="xcopy ${workspace_loc:/${ProjName}}\src\Assets ${workspace_loc:/${ProjName}}\\${ConfigName}\Assets /i /d" />
 		</ExtraCommands>
+		<Unit filename="../Section-6-Full-Source/Utils/FileCommandLoader.cpp" />
+		<Unit filename="../Section-6-Full-Source/Utils/FileCommandLoader.h" />
 		<Unit filename="../Section-6-Full-Source/Utils/Utils.cpp" />
 		<Unit filename="../Section-6-Full-Source/Utils/Utils.h" />
 		<Unit filename="../Section-6-Full-Source/Utils/Vec2D.cpp" />
 		<Unit filename="../Section-6-Full-Source/Utils/Vec2D.h" />
 		<Unit filename="App/App.cpp" />
 		<Unit filename="App/App.h" />
+		<Unit filename="Games/Chess.cpp" />
+		<Unit filename="Games/Chess.h" />
+		<Unit filename="Games/Game.h" />
 		<Unit filename="Graphics/AARectangle.cpp" />
 		<Unit filename="Graphics/AARectangle.h" />
 		<Unit filename="Graphics/Circle.cpp" />
@@ -74,8 +87,15 @@
 		<Unit filename="Graphics/Star2D.h" />
 		<Unit filename="Graphics/Triangle.cpp" />
 		<Unit filename="Graphics/Triangle.h" />
+		<Unit filename="Input/GameController.cpp" />
+		<Unit filename="Input/GameController.h" />
+		<Unit filename="Input/InputAction.h" />
+		<Unit filename="Input/InputController.cpp" />
+		<Unit filename="Input/InputController.h" />
 		<Unit filename="Scenes/ArcadeScene.cpp" />
 		<Unit filename="Scenes/ArcadeScene.h" />
+		<Unit filename="Scenes/GameScene.cpp" />
+		<Unit filename="Scenes/GameScene.h" />
 		<Unit filename="Scenes/Scene.h" />
 		<Unit filename="include/Screen.h" />
 		<Unit filename="include/ScreenBuffer.h" />

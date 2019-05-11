@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1556879015 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\main.cpp
+1557258375 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\main.cpp
 	<iostream>
 	"../App/App.h"
 
@@ -371,7 +371,7 @@
 	"Color.h"
 	<SDL.h>
 
-1555526636 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\graphics\color.h
+1557260735 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\graphics\color.h
 	<stdint.h>
 
 1555701680 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\src\screenbuffer.cpp
@@ -471,22 +471,25 @@
 1556827197 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\graphics\triangle.h
 	"Shape.h"
 
-1556910770 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\app\app.cpp
+1557164002 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\app\app.cpp
 	<iostream>
 	"App.h"
 	"SDL.h"
 	"../Scenes/ArcadeScene.h"
 	<cassert>
 
-1556909822 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\app\app.h
+1557162241 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\app\app.h
 	"../include/Screen.h"
 	"../Scenes/Scene.h"
+	"../Input/InputController.h"
 	<stdint.h>
 	<memory>
 	<vector>
 
-1556910855 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\scenes\arcadescene.cpp
+1557343409 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\scenes\arcadescene.cpp
 	<math.h>
+	<iostream>
+	"../Input/GameController.h"
 	"ArcadeScene.h"
 	"../../Section-6-Full-Source/Utils/Utils.h"
 	"../include/Screen.h"
@@ -497,12 +500,67 @@
 	"../Graphics/Line2D.h"
 	"../Graphics/Color.h"
 
-1556908851 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\scenes\arcadescene.h
+1557171949 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\scenes\arcadescene.h
+	<memory>
+	"../Games/Chess.h"
 	"Scene.h"
 	"../Graphics/Line2D.h"
-	<memory>
 
-1556903582 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\scenes\scene.h
+1556999837 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\scenes\scene.h
+	<string>
+	<stdint.h>
+	"../Input/GameController.h"
+
+1557166032 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\input\gamecontroller.cpp
+	"GameController.h"
+	<SDL.h>
+
+1557165857 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\input\gamecontroller.h
+	"InputAction.h"
+	<vector>
+
+1557164687 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\input\inputaction.h
+	<functional>
+	<stdint.h>
+
+1557167112 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\input\inputcontroller.cpp
+	"InputController.h"
+	"GameController.h"
+	<SDL.h>
+
+1557163978 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\input\inputcontroller.h
+	"InputAction.h"
+
+1557168755 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\scenes\gamescene.cpp
+	"GameScene.h"
+
+1557168447 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\scenes\gamescene.h
+	<memory>
+	"Scene.h"
+	"../Games/Game.h"
+
+1557168684 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\games\game.h
+	<string>
+	<stdint.h>
+
+1557261657 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\games\chess.cpp
+	"Chess.h"
+	"../include/Screen.h"
+
+1557257624 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\arcadeapp\games\chess.h
+	"Game.h"
+	"../Graphics/AARectangle.h"
+
+1557347964 source:c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\section-6-full-source\utils\filecommandloader.cpp
+	"FileCommandLoader.h"
+	<fstream>
+	<iostream>
+	"../Graphics/Color.h"
+	"Vec2D.h"
+
+1557346633 c:\users\redeemer\documents\c++ programming\learn c++ programming by making games\section-6-full-source\utils\filecommandloader.h
+	<functional>
+	<vector>
 	<string>
 	<stdint.h>
 

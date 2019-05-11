@@ -1,5 +1,7 @@
 #include <math.h>
+#include <iostream>
 
+#include "../Input/GameController.h"
 #include "ArcadeScene.h"
 #include "../../Section-6-Full-Source/Utils/Utils.h"
 #include "../include/Screen.h"
@@ -22,6 +24,35 @@ ArcadeScene::ArcadeScene()
 
 void ArcadeScene::Init()
 {
+    ButtonAction action;
+    action.key = GameController::actionKey();
+    action.action = [](uint32_t dt, InputState state)
+    {
+        if(GameController::isPressed(state))
+        {
+            std::cout << "Action button was pressed!" << std::endl;
+        }
+    };
+
+    this->gameController.AddInputActionForKey(action);
+
+    MouseButtonAction mouseAction;
+    mouseAction.mouseButton = GameController::LeftMouseButton();
+    mouseAction.mouseInputAction = [](InputState state, const MousePosition& pos)
+    {
+        if(GameController::isPressed(state))
+        {
+            std::cout << "Left mouse button pressed!" << std::endl;
+        }
+    };
+    this->gameController.AddMouseButtonAction(mouseAction);
+    this->gameController.setMouseMovedAction([] (const MousePosition& mousePosition)
+    {
+        std::cout << "Mouse position x: " << mousePosition.xPos << ", Y:" << mousePosition.yPos << std::endl;
+    });
+
+    chess.Init(this->gameController);
+
     angle = 0.0f;
     result = 0;
 
@@ -59,6 +90,8 @@ void ArcadeScene::Draw(Screen& screen)
 
     Circle circle = {Vec2D(screen.Width()/2 + 50, screen.Height()/2 + 50), 50};
 
+    //chess.Draw(screen);
+
     screen.Draw(line, Color::White());
     screen.Draw(triangle, Color::Red(), true, Color::Red());
     screen.Draw(rect, Color::Blue(), true, Color::Blue());
@@ -87,7 +120,7 @@ const std::string ArcadeScene::GetSceneName() const
     return sceneName;
 }
 
-std::unique_ptr<Scene> ArcadeScene::GetScene(Game game)
+std::unique_ptr<Scene> ArcadeScene::GetScene(Games game)
 {
     switch(game)
     {

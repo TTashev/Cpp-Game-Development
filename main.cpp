@@ -3,9 +3,9 @@
 
 using namespace std;
 
-const int SCREEN_WIDTH = 224;
-const int SCREEN_HEIGHT = 288;
-const int MAGNIFICATION = 3;
+const int SCREEN_WIDTH = 800;
+const int SCREEN_HEIGHT = 600;
+const int MAGNIFICATION = 1;
 
 int main(int argc, char** args)
 {

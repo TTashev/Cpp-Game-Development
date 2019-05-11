@@ -1,12 +1,13 @@
 #ifndef ARCADESCENE_H_
 #define ARCADESCENE_H_
 
+#include <memory>
+#include "../Games/Chess.h"
 #include "Scene.h"
 #include "../Graphics/Line2D.h"
-#include <memory>
 
 
-enum Game
+enum Games
 {
     TETRIS = 0,
     BREAK_OUT,
@@ -27,7 +28,7 @@ public:
     virtual const std::string GetSceneName() const override;
 
 private:
-    std::unique_ptr<Scene> GetScene(Game game);
+    std::unique_ptr<Scene> GetScene(Games game);
 
     double angle;
     double result;
@@ -48,6 +49,7 @@ private:
     int ty2;
 
     class Line2D line;
+    Chess chess;
 };
 
 #endif // ARCADESCENE_H_
